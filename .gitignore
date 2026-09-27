@@ -1,0 +1,19 @@
+# 版本备份（命名约定：.bak_<原因>，如 .bak_before_cfd_removal）
+*.bak
+*.bak_*
+
+# Windows / macOS 系统杂项
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
